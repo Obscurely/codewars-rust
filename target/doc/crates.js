@@ -1,1 +1,0 @@
-window.ALL_CRATES = ["beginner_series_3_sum_of_numbers","build_tower","create_phone_number","find_the_missing_letter","find_the_next_perfect_square","human_readable_time","josephus_permutatio","moving_zeros_to_the_end","multiples_of_3_or_5","rot13","sort_the_odd","sum_of_digits_digital_root"];

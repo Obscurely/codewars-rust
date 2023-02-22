@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+  "5kyu/*",
+  "6kyu/*",
+  "7kyu/*",
+]

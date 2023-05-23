@@ -1,0 +1,22 @@
+mod preloaded;
+use preloaded::MORSE_CODE;
+// MORSE_CODE is `HashMap<String, String>`. e.g. ".-" -> "A".
+
+fn decode_morse(encoded: &str) -> String {
+    let words = encoded.split("   ");
+    
+    let mut decoded = String::from("");
+    for word in words {
+        for letter in word.split(" ") {
+            if letter == "" {
+                continue;
+            }
+            decoded.push_str(&MORSE_CODE[letter]);
+        }
+        decoded.push_str(" ");
+    }
+    
+    let decoded = decoded[0..decoded.len() - 1].to_string();
+    let decoded = decoded.trim();
+    decoded.to_string()
+}

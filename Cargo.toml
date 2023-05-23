@@ -5,3 +5,7 @@ members = [
   "6kyu/*",
   "7kyu/*",
 ]
+
+exclude = [
+  "6kyu/decode-the-morse-code"
+]

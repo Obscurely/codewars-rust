@@ -1,3 +1,4 @@
+#![allow(unused)]
 // Getting the divisors of the numbers using prime factorization.
 // I've actually learned how prime factorization works and how to get the divisors of a number using it.
 // This code is completly composed by my own mind and what I tought would yield the most

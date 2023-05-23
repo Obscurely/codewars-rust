@@ -1,3 +1,4 @@
+#![allow(unused)]
 fn ips_between(start: &str, end: &str) -> u32 {
     let start_split: Vec<i128> = start.split(".").into_iter().map(|n| n.parse().unwrap()).collect();
     let end_split: Vec<i128> = end.split(".").into_iter().map(|n| n.parse().unwrap()).collect();
